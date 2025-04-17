@@ -1,0 +1,46 @@
+# === Python-related ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs & Editors ===
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# === Output or debug artifacts ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.wav
+*.zip
+
+# Ignore debug screenshots from Dino Bot
+debug_screenshot_*.png
+
+# === Environment/config ===
+.env
+*.env
